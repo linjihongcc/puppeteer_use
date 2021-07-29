@@ -196,6 +196,7 @@ run();
 
 
 function add(){
+    let  aaaaa;
     let  addSql = 'INSERT INTO sunglasses(desc1,name1,imgpath,price,fromname) VALUES(?,?,?,?,?)';
     let  addSqlParams =[product_obj.desc,product_obj.title,prefix+'.jpg',product_obj.price,product_obj.fromname];
     console.log('addSqlParams',addSqlParams);
